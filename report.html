@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+            <head>
+                <style>
+                    body {font-family: "Times New Roman", Times, serif;backgroundColor:#edf2ef}
+                    table {width:100%;}
+                    table, th, td {border: 1px solid black;border-collapse: collapse;}
+                    th, td {padding: 10px;margin: 0 auto; text-align:center}
+                    tr:nth-child(even) {background-color: #eee;}
+                    tr:nth-child(odd) {background-color: #fff;}
+                    th {background-color: #fff;color: black;}
+                    h5 {margin: 0 auto}
+                    #sign {font-size:15px; margin: 25px 0px}
+                    #caption-style {font-size: 14px; text-align:left}
+                </style>
+            </head>
+            <body>
+                <h2>Multithreading/Multiprocessing benchmark results</h2>
+                <h3>Execution environment</h3>
+                <h5>Python Version: 3.9.7</h5>
+                <h5>Interpreter: CPython</h5>
+                <h5>Interpreter version: 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]</h5>
+                <h5>Operating System: Windows</h5>
+                <h5>Operating System Version: 10.0.19043</h5>
+                <h5>Processor Version: Intel64 Family 6 Model 165 Stepping 3, GenuineIntel</h5>
+                <h5>Number of CPUs: 12</h5>
+                <h3>Test results<h3>
+                <table>
+                    <caption id="caption-style">The following table shows detailed test results:</caption>
+                    
+            <tr>
+                <th>Execution</th>
+                <th>1 Thread (s)</th>
+                <th>4 Thread (s)</th>
+                <th>4 Processes (s)</th>
+                <th>Processes Based on Number of CPU(s)</th>
+              </tr>
+            
+                <tr>
+                     <td>0</td>
+                     <td>133.403</td>
+                     <td>132.739</td>
+                     <td>41.589</td>
+                     <td>28.442</td>
+                </tr>
+            
+                <tr>
+                     <td>1</td>
+                     <td>133.712</td>
+                     <td>133.164</td>
+                     <td>41.630</td>
+                     <td>28.996</td>
+                </tr>
+            
+                <tr>
+                     <td>2</td>
+                     <td>136.144</td>
+                     <td>133.428</td>
+                     <td>41.675</td>
+                     <td>29.028</td>
+                </tr>
+            
+                <tr>
+                     <td>3</td>
+                     <td>136.161</td>
+                     <td>133.459</td>
+                     <td>44.222</td>
+                     <td>29.535</td>
+                </tr>
+            
+                <tr>
+                     <td>4</td>
+                     <td>137.812</td>
+                     <td>134.173</td>
+                     <td>44.300</td>
+                     <td>29.774</td>
+                </tr>
+            
+                <table>
+                <h3>Summary</h3>
+                <table>
+                    <caption id="caption-style">The following table shows the median of all results:</caption>
+                    
+            <tr>
+                <th>Execution</th>
+                <th>1 Thread (s)</th>
+                <th>4 Thread (s)</th>
+                <th>4 Processes (s)</th>
+                <th>Processes Based on Number of CPU(s)</th>
+              </tr>
+              
+            <tr>
+                <td>Median</td>
+                <td>136.161</td>
+                <td>133.459</td>
+                <td>44.222</td>
+                <td>29.535</td>
+            </tr>
+    
+                <table>
+                <footer>
+                    <div id="sign">App author: Tomasz Luczynski</p>
+                </footer>
+            </body>
+        </html>
+    
